@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', Arial, sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline solid black;
+    color: black;
+    background-color: #FAFAFA;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* HEADER QISMI */
+
+.header {
+    margin-bottom: 140px;
+    margin-top: 27px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header__container ul {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.header__container a {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+}
+
+/* HERO QISMI */
+
+.hero {
+    margin-bottom: 71px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-left h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+
+.hero-left p {
+    margin-bottom: 47px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    color: #21243D;
+}
+
+.hero-left button{
+color: #FFFFFF;
+font-size: 20px;
+font-weight: 500;
+line-height: 29.38px;
+border-radius: 2px;
+padding: 15px 21px 17px 20px;
+border: none;
+background-color: #FF6464;
+}
+
+/* INSPECT qismi */
+
+.inspect{
+    background-color: #EDF7FA;
+    padding-top: 7px;
+    padding-bottom: 32px;
+}
+
+.to{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.to h4{
+font-size: 22px;
+font-weight: 400;
+line-height: 60px;
+color: #21243D;
+}
+
+.to a{
+font-size: 16px;
+font-weight: 400;
+line-height: 23.5px;
+color: #00A8CC;
+}
+
